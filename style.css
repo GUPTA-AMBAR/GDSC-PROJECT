@@ -9,9 +9,8 @@ header{
     background-size: cover;
     background-image: url("backimage.jpeg");
     border-radius: 12px;
-}
-
     
+}
 
 .nav{
     height: 50px;
@@ -21,8 +20,14 @@ header{
     justify-content: center;
     border: 9px solid pink;
     border-radius: 50%;
-    padding-top: 10px;
+    padding-top:6px;
+    transition: all 1s ease-out 0s;
     
+}
+.nav:hover{
+    font-size: 25px;
+    background-color:yellow;
+    color: blue;
 }
 
 .genderequity{
@@ -41,6 +46,9 @@ header{
     margin-left: 500px;
     border: 4px solid orange;
 }
+.video:hover{
+    transform: scale(1.25);
+}
 
 
 #ways{
@@ -48,23 +56,35 @@ header{
     color: black;
     font-size: 1.2rem;
     padding-left: 20px;
+    transition: all 2.5s ease-in;
 
+}
+#ways:hover{
+    transform: translate(400px);
+    color: blueviolet;
 }
 #image12{
     padding-bottom: 350px;
     /* height: 150px; */
 }
+
+
 .image1{
     position: relative;
     margin-left: 600px;
 }
-.h2{
+.head1{
     display: flex;
     justify-content: center;
     color: crimson;
     text-align: center;
-    /* display: inline-block; */
+    transition: all 0.5s  ease-in 0s;
 }
+.head1:hover{
+    font-size: 30px;
+    color: green;
+}
+
 .theory1{
     border: 5px solid blanchedalmond;
     padding-left: 15px;
@@ -91,6 +111,11 @@ header{
     justify-content: center;
     color: crimson;
     align-items: center;
+    transition: all 0.5s  ease-in 0s;
+}
+.head2:hover{
+    font-size: 30px;
+    color: green;
 }
 .theory2{
     padding-left: 15px;
@@ -111,11 +136,19 @@ header{
     margin-left: 500px;
     border: 3px solid pink;
 }
+#img2:hover{
+    transform: scale(1.3);
+}
 .head3{
     display: flex;
     justify-content: center;
     color:crimson;
     align-items: center;
+    transition: all 0.5s  ease-in 0s;
+}
+.head3:hover{
+    font-size: 30px;
+    color: green;
 }
 .theory3{
     padding-left: 15px;
@@ -136,11 +169,19 @@ header{
     margin-left: 500px;
     border: 3px solid pink;
 }
+#img3:hover{
+    transform: scale(1.3);
+}
 .head4{
     display: flex;
     justify-content: center;
     color:crimson;
     align-items: center;
+    transition: all 0.5s  ease-in 0s;
+}
+.head4:hover{
+    font-size: 30px;
+    color: green;
 }
 .theory4{
     padding-left: 15px;
@@ -162,11 +203,19 @@ header{
     margin-left: 500px;
     border: 3px solid pink;
 }
+#img4:hover{
+    transform: scale(1.12);
+}
 .head5{
     display: flex;
     justify-content: center;
     color:crimson;
     align-items: center;
+    transition: all 0.5s  ease-in 0s;
+}
+.head5:hover{
+    font-size: 30px;
+    color: green;
 }
 .theory5{
     padding-left: 15px;
@@ -187,6 +236,9 @@ header{
     margin-left: 500px;
     border: 3px solid pink;
 }
+#img5:hover{
+    transform: scale(1.23);
+}
 .footer{
     border: 3px solid blueviolet;
     border-radius: 10px;
@@ -199,3 +251,4 @@ header{
     background-image: url("footer.avif");
     
 }
+
