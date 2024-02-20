@@ -28,6 +28,7 @@ header{
     font-size: 25px;
     background-color:yellow;
     color: blue;
+    text-shadow: 0 0 5px greenyellow , 0 0 15px greenyellow , 0 0 25px greenyellow  ,0 0 100px greenyellow ;
 }
 
 .genderequity{
@@ -52,16 +53,17 @@ header{
 
 
 #ways{
-    display: inline-block;
+    /* display: inline-block; */
     color: black;
     font-size: 1.2rem;
     padding-left: 20px;
-    transition: all 2.5s ease-in;
+    transition: all 1.5s ease-in;
 
 }
 #ways:hover{
     transform: translate(400px);
     color: blueviolet;
+    text-shadow: 0 0 5px orange , 0 0 15px orange , 0 0 25px orange  ,0 0 100px orange ;
 }
 #image12{
     padding-bottom: 350px;
@@ -83,6 +85,7 @@ header{
 .head1:hover{
     font-size: 30px;
     color: green;
+    text-shadow: 0 0 5px orange , 0 0 15px orange , 0 0 25px orange  ,0 0 100px orange ;
 }
 
 .theory1{
@@ -116,6 +119,7 @@ header{
 .head2:hover{
     font-size: 30px;
     color: green;
+    text-shadow: 0 0 5px orange , 0 0 15px orange , 0 0 25px orange  ,0 0 100px orange ;
 }
 .theory2{
     padding-left: 15px;
@@ -149,6 +153,7 @@ header{
 .head3:hover{
     font-size: 30px;
     color: green;
+    text-shadow: 0 0 5px orange , 0 0 15px orange , 0 0 25px orange  ,0 0 100px orange ;
 }
 .theory3{
     padding-left: 15px;
@@ -182,6 +187,7 @@ header{
 .head4:hover{
     font-size: 30px;
     color: green;
+    text-shadow: 0 0 5px orange , 0 0 15px orange , 0 0 25px orange  ,0 0 100px orange ;
 }
 .theory4{
     padding-left: 15px;
@@ -216,6 +222,7 @@ header{
 .head5:hover{
     font-size: 30px;
     color: green;
+    text-shadow: 0 0 5px orange , 0 0 15px orange , 0 0 25px orange  ,0 0 100px orange ;
 }
 .theory5{
     padding-left: 15px;
